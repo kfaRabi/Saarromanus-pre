@@ -8,7 +8,7 @@ cache:
     - .jest
 before_script:
   - cd SmartphoneApps/Saarromanus
-  - npm install -g npm@6.12.0
+  - npm install -g npm@latest
 script:
   - npm ci
   - npx jest --ci
