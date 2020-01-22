@@ -8,7 +8,11 @@ cache:
     - .jest
 before_script:
   - cd SmartphoneApps/Saarromanus
+<<<<<<< Updated upstream
   - npm install -g npm@latest
+=======
+  - npm install -g npm@6.12.0
+>>>>>>> Stashed changes
 script:
   - npm ci
   - npx jest --ci
